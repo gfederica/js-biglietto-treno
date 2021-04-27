@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    padding: 0 30px;
+}
+header img {
+     width: 20%;
+ }
+
+header ul {
+    display: flex;
+    align-items: center;
+ }
+
+header ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 6px;
+}
+
+header a {
+    text-decoration: none;
+    color: blueviolet;
+}
+header a:not(#logo):hover {
+    border-bottom: 3px solid blueviolet;
+}
+
+header button {
+    background-color: white;
+    border: 3px solid blueviolet;
+    border-radius: 6px;
+    padding: 4px;
+    color: blueviolet;
+}
+header button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
+
+main {
+    padding-top: 200px;
+    height: 100vh;
+    background-image: url(../img/travelperk-trainline-improving-uk-train-travel-for-business-travelers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.box {
+    border: 1px solid gray;
+    padding: 6px 18px;
+    text-align: center;
+    width: 300px;
+}
+
+.container p:nth-child(2n+1) {
+    margin-bottom: 18px;
+}

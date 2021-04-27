@@ -4,13 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
     <title>Prenota il tuo biglietto</title>
 </head>
 <body>
-    <div><p>Età <span id="eta"></span></p></div>
-    <div><p>Km <span id="km"></span></p></div>
-    <div>Sconto applicato <span id="sconto"></span></div>
-    <div>Prezzo finale <span id="prezzo"></span></div>
-    <script src="js/script.js"></script>
+    <header>
+        <a href="" id="logo"><img src="https://www.thetrainline.com/cms/media/2673/trainline_logo_2019_rgb_mint_-1x.png" alt=""></a>
+        <ul>
+            <li><a href="">IT</a></li>
+            <li><a href="">Business</a></li>
+            <li><a href="">Aiuto</a></li>
+            <li><a href="">Registrati</a></li>
+            <li><button>Accedi</button></li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+                <h1>Riepilogo del tuo biglietto</h1>
+                <p>Età</p>
+                <p id="eta" class="box">...</p>
+                <p>Km</p>
+                <p id="km" class="box">...</p>
+                <p>Sconto applicato</p>
+                <p id="sconto" class="box">...</p>
+                <p>Prezzo finale</p>
+                <p id="prezzo" class="box">...</p>
+        </div>
+    </main>    
+        <script src="js/script.js"></script>
 </body>
 </html>
